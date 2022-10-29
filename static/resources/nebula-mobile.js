@@ -117,13 +117,6 @@ window.addEventListener('load', () => {
           const style = iframe.style
           const img = blob.createElement("link")
           const link = location.href
-          const arcSrc = blob.createElement('script');
-          arcSrc.setAttribute(
-  'src',
-  'https://arc.io/widget.min.js#BgaWcYfi',
-);
-          arcSrc.setAttribute('async', '');
-          blob.head.appendChild(arcSrc);
           img.rel = "icon"
           img.href = "https://static.nebulacdn.xyz/content/images/nebula_logo_619x619.png"
           blob.title = "Nebula"

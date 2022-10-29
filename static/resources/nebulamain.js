@@ -130,13 +130,6 @@ scope: '/service/'
           const style = iframe.style
           const img = blob.createElement("link")
           const link = location.href
-          const arcSrc = blob.createElement('script');
-          arcSrc.setAttribute(
-  'src',
-  'https://arc.io/widget.min.js#BgaWcYfi',
-);
-          arcSrc.setAttribute('async', '');
-          blob.head.appendChild(arcSrc);
           img.rel = "icon"
           img.href = "https://static.nebulacdn.xyz/content/images/nebula_logo_619x619.png"
           blob.title = "Nebula"
@@ -177,13 +170,6 @@ scope: '/service/'
           const iframe = doc.createElement("iframe")
           const style = iframe.style
           const img = doc.createElement("link")
-          const arcSrc = doc.createElement('script');
-          arcSrc.setAttribute(
-  'src',
-  'https://arc.io/widget.min.js#BgaWcYfi',
-);
-          arcSrc.setAttribute('async', '');
-          doc.head.appendChild(arcSrc);
           const link = location.href
           img.rel = "icon"
           img.href = "https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_32dp.png"
